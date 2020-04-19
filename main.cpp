@@ -83,13 +83,13 @@ int main()
         }
 
 
-        cout<<"Sortowanie przez scalanie: średni czas wykonywania: "<<1000.0*czas2/CLOCKS_PER_SEC/COUNT<<"ms,\t";
+        cout<<"Sortowanie przez scalanie: średni czas wykonywania: "<<1000.0*czas2/CLOCKS_PER_SEC<<"ms,\t";
         cout<<(error2?"Sortowanie niektórych tablic nie powiodło się":"Wszystkie tablice posortowano poprawnie.")<<endl;
 
-        cout<<"Sortowanie szybkie:        średni czas wykonywania: "<<1000.0*czas1/CLOCKS_PER_SEC/COUNT<<"ms,\t";
+        cout<<"Sortowanie szybkie:        średni czas wykonywania: "<<1000.0*czas1/CLOCKS_PER_SEC<<"ms,\t";
         cout<<(error1?"Sortowanie niektórych tablic nie powiodło się":"Wszystkie tablice posortowano poprawnie.")<<endl;
 
-        cout<<"Sortowanie introspektywne: średni czas wykonywania: "<<1000.0*czas3/CLOCKS_PER_SEC/COUNT<<"ms,\t";
+        cout<<"Sortowanie introspektywne: średni czas wykonywania: "<<1000.0*czas3/CLOCKS_PER_SEC<<"ms,\t";
         cout<<(error3?"Sortowanie niektórych tablic nie powiodło się":"Wszystkie tablice posortowano poprawnie.")<<endl;
 
     } catch (const char * err) {
